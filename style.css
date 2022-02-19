@@ -43,9 +43,12 @@
     font-family: 'Kanit';
 }
 
+
+
 .show{
     padding: 10px;
     background-color: #fff;
+
     width: 80vw;
     margin: 10px auto;
 }
@@ -87,6 +90,8 @@ body{
     display: flex;
     width: 100%;
     flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
 }
 
 .col1,.col2,.col3,.col4,.col5{
@@ -135,7 +140,7 @@ input {
     width: 300px;
     margin-top: 5px;
 }
-input:focus{
+button:focus,input:focus{
     outline: none;
 }
 ::placeholder{

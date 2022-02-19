@@ -15,18 +15,16 @@
             <h1>
                 คำนวณ BMI
             </h1>
-            <br>
-
-            <br>
-            <div class="search"> <input placeholder="ส่วนสูง (เซนติเมตร)" type="text">
-                <input placeholder="นํ้าหนัก (กิโลกรัม)" type="text">
-                <br>
-                <button>คำนวณ</button>
+           
+            <div class="search"> 
+                <input id="height" placeholder="ส่วนสูง (เซนติเมตร)" type="text">
+                <input id="weigh" placeholder="นํ้าหนัก (กิโลกรัม)" type="text">
+                <button id="calbtn">คำนวณ</button>
             </div>
 
         </div>
 
-        <div class="show">
+        <div id="answer" class="show">
 
         </div>
 
@@ -41,17 +39,17 @@
                 </h2>
             </div>
             <div class="col3">
-                <h2>23.0-24.9<br>นํ้าหนักเกิน</h2>
+                <h2>23.0 - 24.9<br>นํ้าหนักเกิน</h2>
             </div>
             <div class="col4">
-                <h2>25.0-29.9<br>โรคอ้วน</h2>
+                <h2>25.0 - 29.9<br>อ้วน</h2>
             </div>
             <div class="col5">
-                <h2>มากกว่า 30<br>โรคอ้วนอันตราย</h2>
+                <h2>มากกว่า 29.9<br>อ้วนมาก</h2>
             </div>
         </div>
     </div>
-    <style src="script.js"></style>
+    <script src="script.js"></script>
 </body>
 
 </html>
