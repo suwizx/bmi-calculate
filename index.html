@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>BMI Calculate</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="container">
         <div class="cal">
@@ -14,25 +16,42 @@
                 คำนวณ BMI
             </h1>
             <br>
-            <div class="search">  <input type="text">
-                <button>คำนวณ</button></div>
-          
+
+            <br>
+            <div class="search"> <input placeholder="ส่วนสูง (เซนติเมตร)" type="text">
+                <input placeholder="นํ้าหนัก (กิโลกรัม)" type="text">
+                <br>
+                <button>คำนวณ</button>
+            </div>
+
         </div>
+
+        <div class="show">
+
+        </div>
+
+
         <div class="bmi">
             <div class="col1">
-
+                <h2>น้อยกว่า 18.5<br>ตํ่ากว่าเกณฑ์
+                </h2>
             </div>
             <div class="col2">
-
+                <h2>18.5 - 22.9<br>สมส่วน
+                </h2>
             </div>
             <div class="col3">
-
+                <h2>23.0-24.9<br>นํ้าหนักเกิน</h2>
             </div>
             <div class="col4">
-
+                <h2>25.0-29.9<br>โรคอ้วน</h2>
+            </div>
+            <div class="col5">
+                <h2>มากกว่า 30<br>โรคอ้วนอันตราย</h2>
             </div>
         </div>
     </div>
-    <style src = "script.js"></style>
+    <style src="script.js"></style>
 </body>
+
 </html>
