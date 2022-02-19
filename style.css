@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;500;600&display=swap');
+
+:root{
+    --blue-color :#00709a ;
+    --blue-2-color : #c7ebff;
+    --heading-color : #1a477f;
+    --green-color : #00a0a9;
+    --green-2-color : #cdfcff;
+    --yellow-color : #ffb600;
+    --yellow-2-color : #fff0d3;
+    --red-color : #f26b55;
+    --red-2-color : #ffcece;
+    --background-color : #e3f0ff;
+}
+
+@media only screen and (max-width: 600px) {
+    .col1 {
+        width: 50% !important;
+    }
+    .col2 {
+        width: 50% !important;
+    }
+    .col3 {
+        width: 50% !important;
+    }
+    .col4{
+        width: 50% !important;
+    }
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit';
+}
+
+h1{
+    font-weight: 500;
+    color :var(--heading-color);
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+.container{
+    min-height: 100vh;
+}
+
+.cal{
+    padding: 10px 10px;
+    background-color: #fff;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.bmi{
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.col1 {
+    width: 25%;
+    padding: 10px;
+    background-color: var(--green-color);
+}
+.col2 {
+    width: 25%;
+    padding: 10px;
+    background-color: var(--heading-color);
+}
+.col3 {
+    width: 25%;
+    padding: 10px;
+    background-color: var(--yellow-color);
+}
+.col4{
+    width: 25%;
+    padding: 10px;
+    background-color: var(--red-color);
+}
+input {
+    background-color: var(--red-2-color);
+    border: 3px solid var(--red-color);
+    color: var(--red-color);
+    font-size: 20px;
+    border-radius: 100px 0px 0px 100px;
+    padding: 3px 20px;
+    border-right:0 ;
+}
+input:focus{
+    outline: none;
+}
+button{
+    background-color: var(--red-color);
+    border: 3px solid var(--red-color);
+    color: var(--red-2-color);
+    font-size: 20px;
+    padding: 3px 20px;
+    border-radius: 0 100px 100px 0;
+    transition: .2s;
+}
+
+button:hover{
+    background-color: var(--red-2-color);
+    border: 3px solid var(--red-color);
+    color: var(--red-color);
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+   
+}
