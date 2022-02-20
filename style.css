@@ -41,6 +41,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Kanit';
+    transition: .2s;
 }
 
 
@@ -48,6 +49,8 @@
 .show{
     padding: 10px;
     background-color: #fff;
+    display: none;
+    max-width: 600px;
 
     width: 80vw;
     margin: 10px auto;
@@ -86,7 +89,8 @@ body{
 }
 
 .bmi{
-    background-color: #fff;
+    background-color: var(--heading-color);
+    color: #fff;
     display: flex;
     width: 100%;
     flex-wrap: wrap;
@@ -95,6 +99,12 @@ body{
 }
 
 .col1,.col2,.col3,.col4,.col5{
+    text-align: center;
+}
+
+.for{
+    width: 100%;
+    padding: 10px;
     text-align: center;
 }
 
@@ -152,7 +162,6 @@ button{
     color: var(--red-2-color);
     font-size: 20px;
     padding: 3px 20px;
-  
     transition: .2s;
     min-width: 300;
     max-width:300px;
